@@ -33,6 +33,10 @@ const playlistStore = {
     const playlist = this.getPlaylist(id);
     playlist.songs.push(song);
   },
+  
+    getUserPlaylists(userid) {
+    return this.store.findBy(this.collection, { userid: userid });
+  },
 
   removeSong(id, songId) {
     const playlist = this.getPlaylist(id);
