@@ -16,8 +16,8 @@ router.get('/logout', accounts.logout);
 router.post('/register', accounts.register);
 router.post('/authenticate', accounts.authenticate);
 
-router.get('/start', start.index);
 
+router.get('/start', start.index);
 router.get('/dashboard', dashboard.index);
 router.get('/dashboard/deleteplaylist/:id', dashboard.deletePlaylist);
 router.post('/dashboard/addplaylist', dashboard.addPlaylist);
@@ -27,5 +27,7 @@ router.get('/playlist/:id/deletesong/:songid', playlist.deleteSong);
 router.post('/playlist/:id/addsong', playlist.addSong);
 
 router.get('/about', about.index);
+
+
 
 module.exports = router;
