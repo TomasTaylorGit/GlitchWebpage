@@ -1,27 +1,16 @@
 {
   "playlistCollection": [
     {
-      "id": "4a1ea4ec-303e-4b13-bd98-a6b04877e093",
-      "title": "test",
-      "songs": []
-    },
-    {
-      "id": "1e6ed5a0-28fe-4527-8ce8-6cb5c800b5be",
-      "userid": "2b6f0989-7b7f-4a38-ad26-aa06b922d751",
-      "title": "marges playlist",
-      "songs": []
-    },
-    {
-      "id": "07dd66fe-9f8f-456c-944d-48330bde4610",
-      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
-      "title": "homers playlist",
-      "songs": []
-    },
-    {
-      "id": "90a268d0-b48e-419f-8553-c0007a41021e",
+      "id": "878a6cd8-6daf-442c-92b9-c7e7cdc76e76",
       "userid": "d4554614-dbdf-4d95-97d5-453b56e0607d",
-      "title": "Test Success",
-      "songs": []
+      "title": "Test",
+      "songs": [
+        {
+          "id": "e584986e-4a08-4df9-9da8-c2f2ad7b0ab9",
+          "title": "Meme Review",
+          "artist": "https://www.youtube.com/watch?v=8B2dwVbTKDg"
+        }
+      ]
     }
   ]
 }
