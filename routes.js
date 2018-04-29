@@ -27,7 +27,7 @@ router.get('/playlist/:id/deletesong/:songid', playlist.deleteSong);
 router.post('/playlist/:id/addsong', playlist.addSong);
 
 router.get('/about', about.index);
-router.post('/dashboard/uploadpicture', dashboard.uploadPicture);
+
 
 
 
