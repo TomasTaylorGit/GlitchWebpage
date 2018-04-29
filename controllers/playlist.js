@@ -3,16 +3,22 @@
 const logger = require('../utils/logger');
 const playlistStore = require('../models/playlist-store');
 const uuid = require('uuid');
+const accounts = require ('./accounts.js');
 
 const playlist = {
-  index(request, response) {
+ index(request, response) {
+    const loggedInUser = accounts.getCurrentUser(request);  
     const playlistId = request.params.id;
     logger.debug('Playlist id = ', playlistId);
+    if (loggedInUser) {
     const viewData = {
       title: 'Playlist',
       playlist: playlistStore.getPlaylist(playlistId),
+      fullname: loggedInUser.firstName + ' ' + loggedInUser.lastName,
     };
     response.render('playlist', viewData);
+    }
+    else response.redirect('/');
   },
 
   deleteSong(request, response) {
