@@ -55,7 +55,6 @@ const accounts = {
     return userstore.getUserByEmail(userEmail);
   }
   
-  getUserpas
 }
 
 module.exports = accounts;
