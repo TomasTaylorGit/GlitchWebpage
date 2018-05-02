@@ -54,6 +54,8 @@ const accounts = {
     const userEmail = request.cookies.playlist;
     return userstore.getUserByEmail(userEmail);
   }
+  
+  getUserpas
 }
 
 module.exports = accounts;
