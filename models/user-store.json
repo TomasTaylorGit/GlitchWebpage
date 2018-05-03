@@ -34,6 +34,13 @@
       "email": "test@test.com",
       "password": "test",
       "id": "0393b893-4b62-4709-9fd1-a19ab49c7a1a"
+    },
+    {
+      "firstName": "Mary",
+      "lastName": "Lyng",
+      "email": "mlyng@wit.ie",
+      "password": "trustno1",
+      "id": "e99d1a90-e462-4366-852c-70f844691ede"
     }
   ]
 }
