@@ -7,4 +7,4 @@ password : test
 A starter project for learning Gomix 
 Was made as instructed for an assignment.
 
- Linl: https://assignment2tomastaylor.glitch.me/
+ Link: https://assignment2tomastaylor.glitch.me/
